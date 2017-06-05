@@ -1,0 +1,79 @@
+header{
+    background: dodgerblue;
+    padding: 6rem;
+}
+
+header div{
+    border: 1px solid white;
+    padding: .5rem;
+    color: white;
+    display: inline-block;
+    float: left;
+    font-size: 2.1rem;
+    margin-left: 5%;
+    margin-top: -50px;
+
+}
+
+h3{
+    font-size: 2rem;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    margin-left: 1.2rem;
+}
+
+.logo{
+    border: 1px solid white;
+    font-family: "Times New Roman";
+    font-size: 50px;
+    margin-top:-80px;
+    padding: 1rem;
+}
+
+
+.ul-header{
+    list-style-type: none;
+    margin-top: -30px;
+    padding: 0;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    float: left;
+    margin-left: 1rem;
+    font-family: "Times New Roman";
+
+}
+
+li{
+    display: inline-block;
+}
+
+.search-bar{
+    border-radius: 7px;
+    border: 2px solid white;
+    background-color: transparent;
+    padding: 10px;
+    padding-right: 35px;
+    float: right;
+    margin-top: -30px;
+    color:white;
+    margin-left: 30rem;
+}
+
+.search-icon{
+    position: relative;
+    top:38px;
+    left:1%;
+    border: none;
+}
+
+.search-icon .fa-search{
+
+    position: absolute;
+    color: #ffffff;
+    top: -10px;
+    right:22px;
+    font-size: 18px;
+}

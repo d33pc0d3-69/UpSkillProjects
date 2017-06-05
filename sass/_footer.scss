@@ -1,0 +1,40 @@
+footer
+{
+  background: grey;
+  padding: 1rem;
+  clear: both;
+}
+
+.ul-footer{
+    list-style-type: none;
+    padding: 0;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size:18px;
+    font-family: Calibri;
+}
+
+.circle-ul{
+
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.circle-ul li{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background: white;
+    display: inline-block;
+    margin-right: 3rem ;
+}
+
+.div-footer{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: Calibri;
+    margin-top: 1rem;
+
+}

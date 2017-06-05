@@ -1,0 +1,135 @@
+@mixin widths($value){
+	width: $value;
+}
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    color: dodgerblue;
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+
+label{
+    display: block;
+    text-indent: 10px;
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-bottom: 2px;
+}
+
+h3{
+    font-size: 2rem;
+    padding-top: 1rem;
+    margin-bottom: 1.5rem;
+    padding-left: 1rem;
+}
+
+.container{
+    width: 100%;
+}
+
+.sub-container{
+    margin: 0 auto;
+    width:65%;
+}
+
+.form-container{
+    border-radius: 8px;
+    background: #DFDFDF;
+    margin-top: 2rem;
+}
+
+.form-sub-container{
+    padding:2rem;
+    padding-top: 0;
+}
+	
+.form-white-box{
+    background: white;
+    padding: 3rem;
+    padding-top: 1rem;
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+.message-section{
+
+    padding: 2rem;
+    padding-top: 0;
+}
+
+.input{
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    @include widths(100%);
+}
+
+.input-two{
+    margin-bottom: 1rem;
+}
+
+.input-txtdonation{
+    background: gainsboro;
+    margin-bottom: 0.5rem;
+}
+
+.txtboxreduce{
+	@include widths(40%);
+}
+
+.input-message{
+    border-radius: 5px;
+    border: none;
+    @include widths(100%);
+}
+
+
+.div-fname{
+    margin-right: 2%;
+    @include widths(50%);
+    float: left;
+}
+
+.div-lname{
+    float: left;
+    @include widths(48%);
+}
+
+$btnColor: cornflowerblue;
+.btn{
+  background: $btnColor;
+  padding: 1rem 6rem;
+  border-radius: 10px;
+  border: none;
+  color: white;
+
+
+&.btn-1st-form{
+    font-size: 2rem;
+    margin-bottom:1rem;
+    margin-top: 1rem;
+    float: right;
+}
+
+&.btn-2nd-form-left{
+    margin:1rem;
+    margin-left:0;
+    font-size: 2rem;
+}
+
+&.btn-2nd-form-right{
+    float: right;
+    margin-right: 0;
+
+}
+
+}
+
+

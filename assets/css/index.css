@@ -1,0 +1,353 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    color: dodgerblue;
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+
+footer
+{
+  background: grey;
+  padding: 1rem;
+  clear: both;
+}
+
+header{
+    background: dodgerblue;
+    padding: 6rem;
+}
+
+h1{
+    margin-bottom:0;
+
+}
+
+label{
+    display: block;
+    text-indent: 10px;
+    font-size: 20px;
+}
+
+.clear{
+    clear: both;
+}
+
+header div{
+    border: 1px solid white;
+    padding: .5rem;
+    color: white;
+    display: inline-block;
+    float: left;
+    font-size: 2.1rem;
+    margin-left: 5%;
+    margin-top: -50px;
+
+}
+
+article{
+    text-align: center;
+    font-family: Calibri;
+    margin-top:0;
+}
+
+h3{
+    font-size: 2rem;
+    padding-top: 1rem;
+    margin-bottom:.5rem;
+    padding-left: 1rem;
+}
+
+article{
+    font-size: 30px;
+}
+
+hr{
+    width: 68%;
+    background: #bebebe;
+    border: 1px solid #ededed;
+
+}
+
+.ul-header{
+    list-style-type: none;
+    margin-top: -30px;
+    padding: 0;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    float: left;
+    margin-left: 1rem;
+    font-family: "Times New Roman";
+
+}
+
+li{
+    display: inline-block;
+}
+
+.ul-footer{
+    list-style-type: none;
+    padding: 0;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size:18px;
+    font-family: Calibri;
+}
+
+.div-footer{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: Calibri;
+}
+
+.circle-ul{
+
+    text-align: center;
+}
+
+.circle-ul li{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background: white;
+    display: inline-block;
+    margin-right: 3rem ;
+}
+
+.logo{
+    border: 1px solid white;
+    font-family: "Times New Roman";
+    font-size: 50px;
+    margin-top:-80px;
+}
+
+.form-container{
+    border-radius: 8px;
+    background: #DFDFDF;
+
+}
+
+.form-white-box{
+    background: white;
+    padding: 3rem;
+    padding-top: 1rem;
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+.form-sub-container{
+    padding:2rem;
+    padding-top: 0;
+}
+
+.sub-container{
+    margin: 0 auto;
+    width:65%;
+}
+
+.message-section{
+
+    padding: 2rem;
+    padding-top: 0;
+
+
+}
+
+.btn-1st-form{
+    background: cornflowerblue;
+    padding: 1rem 6rem;
+    border: none;
+    float: right;
+    border-radius: 10px;
+    color: white;
+    font-size: 2rem;
+    margin-bottom:1rem;
+    margin-top: 1rem;
+}
+
+.btn-2nd-form-left{
+    background: cornflowerblue;
+    padding: 1rem 6rem;
+    border: none;
+    margin:1rem;
+    margin-left:0;
+    border-radius: 10px;
+    color: white;
+    font-size: 2rem;
+}
+
+.btn-2nd-form-right{
+    background: cornflowerblue;
+    padding: 1rem 6rem;
+    border: none;
+    margin:1rem;
+    margin-right:0;
+    border-radius: 10px;
+    color: white;
+    font-size: 2rem;
+    float: right;
+}
+
+.search-bar{
+    border-radius: 7px;
+    border: 2px solid white;
+    background-color: transparent;
+    padding: 10px;
+    padding-right: 35px;
+    float: right;
+    margin-top: -30px;
+    color:white;
+    margin-left: 10px;
+}
+
+.search-icon{
+    position: relative;
+    top:38px;
+    left:1%;
+    border: none;
+}
+
+.search-icon .fa-search{
+
+    position: absolute;
+    color: #ffffff;
+    top: -10px;
+    right:22px;
+    font-size: 18px;
+}
+.input-one{
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    width:100%;
+}
+
+.input-two{
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    width:100%;
+    margin-bottom: 1rem;
+}
+
+.input-three{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    margin-bottom:1rem;
+}
+
+.input-txtdonation{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    background: gainsboro;
+}
+
+.input-message{
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+}
+
+.div-fname{
+    margin-right: 2%;
+    width: 50%;
+    float: left;
+}
+
+.div-lname{
+    float: left;
+    width: 48%;
+}
+
+.container{
+    width: 100%;
+}
+
+
+.progress-unfloat:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.progress{
+    counter-reset: step;
+}
+
+.progress li{
+    list-style-type: none;
+    float: left;
+    width: 32.20%;
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+}
+
+.progress li:nth-child(3){
+  position: relative;
+    right:2%;
+}
+
+.progress li:nth-child(1){
+    position: relative;
+    left:2%;
+
+}
+
+.progress li:before{
+    content: counter(step);
+    counter-increment: step;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border: 10px solid #bebebe;
+    display: block;
+    text-align: center;
+    margin: 0 auto 10px auto;
+    border-radius: 100%;
+    background-color: #ffffff;
+}
+
+.progress li:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 15px;
+    background: #bebebe;
+    top: 25px;
+    left: -50%;
+    z-index: -1;
+}
+
+.progress li:first-child:after{
+    content: none;
+}
+
+.progress li.active{
+    color: white;
+}
+
+.progress li.active:before{
+    border-color: #bebebe;
+    background: dodgerblue;
+}
+
+.img{
+    width: 250px;
+    height:auto;
+}
+
+.float-image{
+    float: left;
+}
